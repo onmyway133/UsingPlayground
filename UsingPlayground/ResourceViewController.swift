@@ -18,17 +18,25 @@ final class ResourceViewController: UIViewController {
 
     setup()
     imageView.image = UIImage(named: "ironMan")
+    label.text = NSLocalizedString("Iron Man", comment: "")
   }
 
   private func setup() {
     imageView.contentMode = .scaleAspectFit
+    label.textAlignment = .center
+    label.textColor = .black
+    label.font = UIFont.preferredFont(forTextStyle: .headline)
 
     view.addSubview(imageView)
     view.addSubview(label)
 
     activate(
-      imageView.anchor.width.multiplier(0.7),
-      imageView.anchor.centerX
+      imageView.anchor.width.multiplier(0.6),
+      imageView.anchor.height.ratio(1.0),
+      imageView.anchor.center,
+
+      label.anchor.top.equal.to(imageView.anchor.bottom).constant(10),
+      label.anchor.centerX
     )
   }
 }
