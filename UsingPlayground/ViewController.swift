@@ -11,7 +11,7 @@ public class ViewController: UIViewController {
     cheerView.frame = view.bounds
 
     // Configure
-    cheerView.config.particle = .confetti
+    cheerView.config.particle = .confetti(allowedShapes: [.rectangle, .circle])
 
     // Start
     cheerView.start()

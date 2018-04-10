@@ -1,12 +1,20 @@
 PODS:
-  - Cheers (2.0.0)
+  - BuddyBuildSDK (1.0.17)
+  - Cheers (2.1.0)
 
 DEPENDENCIES:
+  - BuddyBuildSDK
   - Cheers
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - BuddyBuildSDK
+    - Cheers
+
 SPEC CHECKSUMS:
-  Cheers: bacb4a95f04cf0fa25ee7f78e900c71eca8673ba
+  BuddyBuildSDK: 8ae12ee721098b356a961ea7dce70ae55f93a7d2
+  Cheers: 02d6335ac9ceb1ebf678df78d378bc71242a015e
 
-PODFILE CHECKSUM: 21e836fec80e8b8ac2546843f67e325eebdc9f9c
+PODFILE CHECKSUM: 393d4782009ac83f7c2d6d145beac0fb7530ec99
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.0

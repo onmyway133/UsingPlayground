@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		57ECF636DF9755BA850F3904 /* Pods_AppFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E665C70506BD9ED71B9E71CA /* Pods_AppFramework.framework */; };
 		942BAD775576C10F049289FD /* Pods_UsingPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F4740B79627C9D94C2EA6A2 /* Pods_UsingPlayground.framework */; };
+		D206B703207CF1B20069D180 /* Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = D206B702207CF17A0069D180 /* Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D25792D81FD1910B00B97297 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25792D71FD1910B00B97297 /* AppDelegate.swift */; };
 		D25792DA1FD1910B00B97297 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25792D91FD1910B00B97297 /* ViewController.swift */; };
 		D25792DD1FD1910B00B97297 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25792DB1FD1910B00B97297 /* Main.storyboard */; };
@@ -80,6 +81,7 @@
 		068829CD18BA3EBB5420F558 /* Pods-UsingPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsingPlayground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UsingPlayground/Pods-UsingPlayground.debug.xcconfig"; sourceTree = "<group>"; };
 		5F9891D993971192EE77FA7F /* Pods-UsingPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsingPlayground.release.xcconfig"; path = "Pods/Target Support Files/Pods-UsingPlayground/Pods-UsingPlayground.release.xcconfig"; sourceTree = "<group>"; };
 		7F4740B79627C9D94C2EA6A2 /* Pods_UsingPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UsingPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D206B702207CF17A0069D180 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		D25792D41FD1910B00B97297 /* UsingPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsingPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D25792D71FD1910B00B97297 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D25792D91FD1910B00B97297 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 				D25792DE1FD1910B00B97297 /* Assets.xcassets */,
 				D25792E01FD1910B00B97297 /* LaunchScreen.storyboard */,
 				D25792E31FD1910B00B97297 /* Info.plist */,
+				D206B702207CF17A0069D180 /* Bridging-Header.h */,
 			);
 			path = UsingPlayground;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D257931C1FD192B700B97297 /* AppFramework.h in Headers */,
+				D206B703207CF1B20069D180 /* Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +270,6 @@
 				D25792D21FD1910B00B97297 /* Resources */,
 				D25793261FD192B700B97297 /* Embed Frameworks */,
 				7E7F9656909EA8A23F9EC785 /* [CP] Embed Pods Frameworks */,
-				5DB4A254E3BAE8E1C4EDDFFF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -323,7 +326,6 @@
 				D25793061FD192B700B97297 /* Frameworks */,
 				D25793071FD192B700B97297 /* Headers */,
 				D25793081FD192B700B97297 /* Resources */,
-				7A33B1EA387604A1B91A07DA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -360,7 +362,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Khoa Pham";
 				TargetAttributes = {
 					D25792D31FD1910B00B97297 = {
@@ -452,36 +454,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5DB4A254E3BAE8E1C4EDDFFF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UsingPlayground/Pods-UsingPlayground-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7A33B1EA387604A1B91A07DA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppFramework/Pods-AppFramework-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7E7F9656909EA8A23F9EC785 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -644,6 +616,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -651,6 +624,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -701,6 +675,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -708,6 +683,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -748,6 +724,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fantageek.UsingPlayground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -764,6 +741,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fantageek.UsingPlayground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
