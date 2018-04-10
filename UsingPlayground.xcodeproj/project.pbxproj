@@ -10,6 +10,8 @@
 		015D2C64C2041FA1E592DD28 /* Pods_AppFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364572E1054B186AB282F918 /* Pods_AppFramework.framework */; };
 		1E07B5175AF6CD8E579A6C45 /* Pods_UsingPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266E7F6C7E1BC04CABFDEF7B /* Pods_UsingPlayground.framework */; };
 		D206B703207CF1B20069D180 /* Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = D206B702207CF17A0069D180 /* Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D206B705207CF6E10069D180 /* ResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206B704207CF6E10069D180 /* ResourceViewController.swift */; };
+		D206B706207CF7090069D180 /* ResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206B704207CF6E10069D180 /* ResourceViewController.swift */; };
 		D25792D81FD1910B00B97297 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25792D71FD1910B00B97297 /* AppDelegate.swift */; };
 		D25792DA1FD1910B00B97297 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25792D91FD1910B00B97297 /* ViewController.swift */; };
 		D25792DD1FD1910B00B97297 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25792DB1FD1910B00B97297 /* Main.storyboard */; };
@@ -84,6 +86,7 @@
 		7B4BD6DED6E1820A64FA76E6 /* Pods-AppFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppFramework/Pods-AppFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		C4DFB84CD74F578BD35F8B5E /* Pods-UsingPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsingPlayground.release.xcconfig"; path = "Pods/Target Support Files/Pods-UsingPlayground/Pods-UsingPlayground.release.xcconfig"; sourceTree = "<group>"; };
 		D206B702207CF17A0069D180 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		D206B704207CF6E10069D180 /* ResourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceViewController.swift; sourceTree = "<group>"; };
 		D25792D41FD1910B00B97297 /* UsingPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsingPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D25792D71FD1910B00B97297 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D25792D91FD1910B00B97297 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -205,6 +208,7 @@
 				D25792E01FD1910B00B97297 /* LaunchScreen.storyboard */,
 				D25792E31FD1910B00B97297 /* Info.plist */,
 				D206B702207CF17A0069D180 /* Bridging-Header.h */,
+				D206B704207CF6E10069D180 /* ResourceViewController.swift */,
 			);
 			path = UsingPlayground;
 			sourceTree = "<group>";
@@ -461,10 +465,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-UsingPlayground/Pods-UsingPlayground-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Anchors/Anchors.framework",
 				"${BUILT_PRODUCTS_DIR}/Cheers/Cheers.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Anchors.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cheers.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,6 +523,7 @@
 			files = (
 				D25792DA1FD1910B00B97297 /* ViewController.swift in Sources */,
 				D25792D81FD1910B00B97297 /* AppDelegate.swift in Sources */,
+				D206B705207CF6E10069D180 /* ResourceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,6 +547,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D206B706207CF7090069D180 /* ResourceViewController.swift in Sources */,
 				D25793281FD192BB00B97297 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

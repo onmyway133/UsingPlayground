@@ -1,20 +1,24 @@
 PODS:
+  - Anchors (2.2.1)
   - BuddyBuildSDK (1.0.17)
   - Cheers (2.1.0)
 
 DEPENDENCIES:
+  - Anchors
   - BuddyBuildSDK
   - Cheers
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - Anchors
     - BuddyBuildSDK
     - Cheers
 
 SPEC CHECKSUMS:
+  Anchors: c1dd44c918ec9fb331e1f786546950e36a50a337
   BuddyBuildSDK: 8ae12ee721098b356a961ea7dce70ae55f93a7d2
   Cheers: 02d6335ac9ceb1ebf678df78d378bc71242a015e
 
-PODFILE CHECKSUM: 393d4782009ac83f7c2d6d145beac0fb7530ec99
+PODFILE CHECKSUM: e79eef7b8fbb59f9bd5f51554d0dd1fc8b74c6ad
 
 COCOAPODS: 1.5.0
