@@ -9,16 +9,16 @@
 import UIKit
 import Anchors
 
-final class ResourceViewController: UIViewController {
+public class ResourceViewController: UIViewController {
   let imageView = UIImageView()
   let label = UILabel()
 
-  override func viewDidLoad() {
+  public override func viewDidLoad() {
     super.viewDidLoad()
 
     setup()
     imageView.image = UIImage(named: "ironMan")
-    label.text = NSLocalizedString("Iron Man", comment: "")
+    label.text = NSLocalizedString("Iron Man is a fictional superhero appearing in American comic books published by Marvel Comics", comment: "Can't find localised string")
   }
 
   private func setup() {
@@ -26,6 +26,7 @@ final class ResourceViewController: UIViewController {
     label.textAlignment = .center
     label.textColor = .black
     label.font = UIFont.preferredFont(forTextStyle: .headline)
+    label.numberOfLines = 0
 
     view.addSubview(imageView)
     view.addSubview(label)
@@ -36,7 +37,7 @@ final class ResourceViewController: UIViewController {
       imageView.anchor.center,
 
       label.anchor.top.equal.to(imageView.anchor.bottom).constant(10),
-      label.anchor.centerX
+      label.anchor.paddingHorizontally(20)
     )
   }
 }
