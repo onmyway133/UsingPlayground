@@ -16,6 +16,8 @@ public class ResourceViewController: UIViewController {
   public override func viewDidLoad() {
     super.viewDidLoad()
 
+    view.backgroundColor = UIColor.gray
+
     setup()
     imageView.image = UIImage(named: "ironMan")
     label.text = NSLocalizedString("Iron Man is a fictional superhero appearing in American comic books published by Marvel Comics", comment: "Can't find localised string")

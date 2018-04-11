@@ -4,7 +4,8 @@ import UIKit
 import AppFramework
 import PlaygroundSupport
 
-let myController = ResourceViewController()
+let controller = ResourceViewController()
+controller.view.frame.size = CGSize(width: 375, height: 667)
 
-PlaygroundPage.current.liveView = myController.view
+PlaygroundPage.current.liveView = controller.view
 
