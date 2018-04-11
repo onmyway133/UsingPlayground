@@ -1,11 +1,11 @@
-
+source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '9.0'
-
 use_frameworks!
+inhibit_all_warnings!
 
 pod 'Cheers'
 pod 'BuddyBuildSDK'
 pod 'Anchors'
 
-target 'UsingPlayground'
 target 'AppFramework'
+target 'UsingPlayground'
