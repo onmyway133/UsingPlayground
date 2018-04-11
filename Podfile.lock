@@ -1,5 +1,5 @@
 PODS:
-  - Anchors (2.2.1)
+  - Anchors (2.3.0)
   - BuddyBuildSDK (1.0.17)
   - Cheers (2.1.0)
 
@@ -15,7 +15,7 @@ SPEC REPOS:
     - Cheers
 
 SPEC CHECKSUMS:
-  Anchors: c1dd44c918ec9fb331e1f786546950e36a50a337
+  Anchors: 000f9206b6f898ac9c021e4cf537161efb0d9ec3
   BuddyBuildSDK: 8ae12ee721098b356a961ea7dce70ae55f93a7d2
   Cheers: 02d6335ac9ceb1ebf678df78d378bc71242a015e
 
