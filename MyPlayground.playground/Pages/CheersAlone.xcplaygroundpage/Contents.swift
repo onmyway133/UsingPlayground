@@ -1,6 +1,5 @@
 import UIKit
 import Cheers
-import AppFramework
 import PlaygroundSupport
 
 // Use cheer alone
