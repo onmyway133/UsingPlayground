@@ -24,6 +24,7 @@
 		D257931F1FD192B700B97297 /* AppFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D257930A1FD192B700B97297 /* AppFramework.framework */; };
 		D25793201FD192B700B97297 /* AppFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D257930A1FD192B700B97297 /* AppFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D25793281FD192BB00B97297 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25792D91FD1910B00B97297 /* ViewController.swift */; };
+		D2965493207F1AC600D12FD1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2965492207F1AC600D12FD1 /* Localizable.strings */; };
 		D3D6AB7D07A8169D81011A1B /* Pods_AppFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 456E3255BE8A96B12F6C0C0C /* Pods_AppFramework.framework */; };
 /* End PBXBuildFile section */
 
@@ -106,6 +107,9 @@
 		D25793121FD192B700B97297 /* AppFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D25793191FD192B700B97297 /* AppFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFrameworkTests.swift; sourceTree = "<group>"; };
 		D257931B1FD192B700B97297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2965490207F1AA800D12FD1 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Main.strings; sourceTree = "<group>"; };
+		D2965491207F1AA800D12FD1 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		D2965492207F1AC600D12FD1 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		E39BB54F3538DBEEF4DBC3A0 /* Pods-AppFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppFramework/Pods-AppFramework.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -198,6 +202,7 @@
 				D25792E31FD1910B00B97297 /* Info.plist */,
 				D206B702207CF17A0069D180 /* Bridging-Header.h */,
 				D206B704207CF6E10069D180 /* ResourceViewController.swift */,
+				D2965492207F1AC600D12FD1 /* Localizable.strings */,
 			);
 			path = UsingPlayground;
 			sourceTree = "<group>";
@@ -424,6 +429,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D25792E21FD1910B00B97297 /* LaunchScreen.storyboard in Resources */,
+				D2965493207F1AC600D12FD1 /* Localizable.strings in Resources */,
 				D25792DF1FD1910B00B97297 /* Assets.xcassets in Resources */,
 				D25792DD1FD1910B00B97297 /* Main.storyboard in Resources */,
 			);
@@ -627,6 +633,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				D25792DC1FD1910B00B97297 /* Base */,
+				D2965490207F1AA800D12FD1 /* nb */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -635,6 +642,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				D25792E11FD1910B00B97297 /* Base */,
+				D2965491207F1AA800D12FD1 /* nb */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -646,6 +654,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -706,6 +715,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
