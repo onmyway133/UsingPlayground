@@ -25,6 +25,8 @@
 		D25793201FD192B700B97297 /* AppFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D257930A1FD192B700B97297 /* AppFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D25793281FD192BB00B97297 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25792D91FD1910B00B97297 /* ViewController.swift */; };
 		D2965493207F1AC600D12FD1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2965492207F1AC600D12FD1 /* Localizable.strings */; };
+		D2965496207F1ED200D12FD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D25792DE1FD1910B00B97297 /* Assets.xcassets */; };
+		D2965497207F1ED500D12FD1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2965492207F1AC600D12FD1 /* Localizable.strings */; };
 		D3D6AB7D07A8169D81011A1B /* Pods_AppFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 456E3255BE8A96B12F6C0C0C /* Pods_AppFramework.framework */; };
 /* End PBXBuildFile section */
 
@@ -453,6 +455,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2965496207F1ED200D12FD1 /* Assets.xcassets in Resources */,
+				D2965497207F1ED500D12FD1 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

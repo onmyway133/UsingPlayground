@@ -19,8 +19,13 @@ public class ResourceViewController: UIViewController {
     view.backgroundColor = UIColor.gray
 
     setup()
-    imageView.image = UIImage(named: "ironMan")
-    label.text = NSLocalizedString("ironManDescription", comment: "Can't find localised string")
+
+    let bundle = Bundle(for: ResourceViewController.self)
+    imageView.image = UIImage(named: "ironMan", in: bundle, compatibleWith: nil)
+    label.text = NSLocalizedString(
+      "ironManDescription", tableName: nil,
+      bundle: bundle, value: "", comment: "Can't find localised string"
+    )
   }
 
   private func setup() {
