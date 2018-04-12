@@ -27,6 +27,8 @@
 		D2965493207F1AC600D12FD1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2965492207F1AC600D12FD1 /* Localizable.strings */; };
 		D2965496207F1ED200D12FD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D25792DE1FD1910B00B97297 /* Assets.xcassets */; };
 		D2965497207F1ED500D12FD1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2965492207F1AC600D12FD1 /* Localizable.strings */; };
+		D2965499207F222C00D12FD1 /* Avengeance.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2965498207F222C00D12FD1 /* Avengeance.ttf */; };
+		D296549A207F22A300D12FD1 /* Avengeance.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2965498207F222C00D12FD1 /* Avengeance.ttf */; };
 		D3D6AB7D07A8169D81011A1B /* Pods_AppFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 456E3255BE8A96B12F6C0C0C /* Pods_AppFramework.framework */; };
 /* End PBXBuildFile section */
 
@@ -112,6 +114,7 @@
 		D2965490207F1AA800D12FD1 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Main.strings; sourceTree = "<group>"; };
 		D2965491207F1AA800D12FD1 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		D2965492207F1AC600D12FD1 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		D2965498207F222C00D12FD1 /* Avengeance.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Avengeance.ttf; sourceTree = "<group>"; };
 		E39BB54F3538DBEEF4DBC3A0 /* Pods-AppFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppFramework/Pods-AppFramework.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -196,6 +199,7 @@
 		D25792D61FD1910B00B97297 /* UsingPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				D2965498207F222C00D12FD1 /* Avengeance.ttf */,
 				D25792D71FD1910B00B97297 /* AppDelegate.swift */,
 				D25792D91FD1910B00B97297 /* ViewController.swift */,
 				D25792DB1FD1910B00B97297 /* Main.storyboard */,
@@ -431,6 +435,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D25792E21FD1910B00B97297 /* LaunchScreen.storyboard in Resources */,
+				D2965499207F222C00D12FD1 /* Avengeance.ttf in Resources */,
 				D2965493207F1AC600D12FD1 /* Localizable.strings in Resources */,
 				D25792DF1FD1910B00B97297 /* Assets.xcassets in Resources */,
 				D25792DD1FD1910B00B97297 /* Main.storyboard in Resources */,
@@ -455,6 +460,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D296549A207F22A300D12FD1 /* Avengeance.ttf in Resources */,
 				D2965496207F1ED200D12FD1 /* Assets.xcassets in Resources */,
 				D2965497207F1ED500D12FD1 /* Localizable.strings in Resources */,
 			);

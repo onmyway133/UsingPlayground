@@ -4,5 +4,6 @@
         <page name='Resource'/>
         <page name='Cheers'/>
         <page name='CheersAlone'/>
+        <page name='Trait'/>
     </pages>
 </playground>

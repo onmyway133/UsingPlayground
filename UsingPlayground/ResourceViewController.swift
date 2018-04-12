@@ -26,6 +26,12 @@ public class ResourceViewController: UIViewController {
       "ironManDescription", tableName: nil,
       bundle: bundle, value: "", comment: "Can't find localised string"
     )
+
+    // font
+    let fontURL = bundle.url(forResource: "Avengeance", withExtension: "ttf")
+    CTFontManagerRegisterFontsForURL(fontURL! as CFURL, CTFontManagerScope.process, nil)
+    let font = UIFont(name: "Avengeance", size: 30)!
+    label.font = font
   }
 
   private func setup() {
